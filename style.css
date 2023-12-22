@@ -1,0 +1,150 @@
+
+body{
+    background:white;
+}
+
+*{
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+#header{  
+    background:black;
+    height: 100px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: white;
+    
+
+}
+#logo{   
+    padding-left: 30px;
+    letter-spacing: 3px;
+    font-weight: 300;
+    text-decoration: underline;
+}
+#logo > h1 {
+    text-align: center;
+}
+
+#inputform{
+    display:flex;
+    justify-content: center;
+    background-color:black;
+}
+#maincard{
+    margin-top: 50px;
+    border: 10px solid white;
+    /* padding-bottom: 30px; */
+    width: 500px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#formitems{
+    display: flex;
+    justify-content: center;
+}
+.inputwhat{
+    margin-top: 30px;
+    
+    margin-bottom: 5px;
+}
+input , textarea{
+    border: 2px solid black;
+}
+#textinput{
+    width: 180px;
+    height:30px
+}
+#describe{
+    width: 180px;
+}
+#imageinput{
+    margin-top:20px;
+    width: 190px;
+}
+#submit{
+    width: 80px;
+    background: yellow;
+    height: 30px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+#submit:hover{
+    background: black;
+    color: white;
+}
+
+
+
+.card{
+    border: 10px solid white;
+    
+    width: 25%; 
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 20px; 
+    margin-top: 60px;
+    box-sizing: border-box; 
+    text-align: center;
+    background-color: lightskyblue;
+    color: black;
+    display:block;
+    align-items: center;
+}
+
+.card > img{
+    width:80%;
+    height:auto;
+ 
+    
+}
+.card > h3 {
+    margin-top: 20px;
+    text-decoration: underline;
+    color: black;
+}
+
+.card > p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+
+#imageuploaded{
+    margin-bottom: 20px;
+}
+
+form{
+    background-color: lightskyblue;
+}
+
+#up{
+    
+    background-color: black;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    background-color: yellow;
+    color: black;
+    
+    border: 1px solid black;
+    font-size: 12px;
+    width: 100px;
+    height: 20px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    
+  
+  
+
+
+}
+
