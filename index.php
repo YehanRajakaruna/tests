@@ -9,7 +9,7 @@
 <body>
      <header id="header">
         <div id="logo">
-        <h1>INSERT PHOTOS</h1>
+        <h1>INSERT hh PHOTOS</h1>
         </div>
      </header>
 
